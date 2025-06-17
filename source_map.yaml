@@ -1,0 +1,6 @@
+# Archivo principal para api1
+main: etl_example.py
+path: scripts
+# Archivo principal para web2
+# Para notebooks, usar: main: etl_example.ipynb
+# path: notebooks
