@@ -15,14 +15,3 @@ sources:
       output_path: "data/web2.json"
     dependencies: requirements.txt
     kernel: python3
-
-sources:
-  - id: web2
-    params:
-      selector: ".value"
-      output_path: "data/web2.json"
-  - id: rjob
-    params:
-      output_path: "data/rjob.csv"
-    dependencies: requirements-rjob.R
-    kernel: ir
